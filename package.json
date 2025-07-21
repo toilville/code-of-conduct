@@ -1,0 +1,64 @@
+{
+  "name": "toilville-code-of-conduct",
+  "version": "1.2.0",
+  "description": "Comprehensive Code of Conduct template for open source projects, sponsored by Toilville",
+  "keywords": [
+    "code-of-conduct",
+    "community-guidelines", 
+    "open-source",
+    "template",
+    "github",
+    "community-management",
+    "documentation",
+    "toilville"
+  ],
+  "homepage": "https://github.com/toilville/code-of-conduct#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toilville/code-of-conduct.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toilville/code-of-conduct/issues"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": {
+    "name": "Toilville",
+    "email": "hello@itstoilville.com",
+    "url": "https://www.itstoilville.com/"
+  },
+  "files": [
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "ENFORCEMENT_GUIDELINES.md",
+    "VIOLATION_REPORT_TEMPLATE.md",
+    "QUICK_START.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "markdownlint \"**/*.md\" --ignore node_modules",
+    "lint:fix": "markdownlint \"**/*.md\" --ignore node_modules --fix",
+    "validate": "npm run lint && npm run link-check",
+    "link-check": "markdown-link-check README.md",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "markdown-link-check": "^3.11.2",
+    "semantic-release": "^22.0.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://www.itstoilville.com/"
+    },
+    {
+      "type": "consulting",
+      "url": "https://www.itstoilville.com/services/"
+    }
+  ]
+}

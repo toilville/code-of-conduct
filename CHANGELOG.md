@@ -7,7 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2025-07-21
+
 ### Added
+- **GitHub Actions workflows** for automated link checking and markdown linting
+- **Release automation** with automatic GitHub releases and asset uploads
+- **Dependabot configuration** for automated dependency updates
+- **Development tools**: package.json with linting and validation scripts
+- **EditorConfig** for consistent formatting across different editors
+- **Git configuration**: .gitignore and .gitattributes for better repository management
+- **Citation file** (CITATION.cff) for academic use and proper attribution
+- **Community health documentation** with comprehensive repository health tracking
+- **Issue template configuration** with contact links and professional support
+- **Social media assets directory** with instructions for repository branding
+- **Enhanced README badges** including release version and workflow status
 - Toilville sponsorship information across all documentation
 - Values statement supporting "No One Is Illegal, Black Rights Matter, and Protect Trans Kids"
 - Community management service offerings and contact information
@@ -17,6 +30,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated LICENSE with proper copyright attribution to Toilville
 - Enhanced all documentation with sponsorship and values information
 - Improved funding links to include main Toilville website
+- Repository now achieves 100% GitHub community health compliance
+
+### Technical Improvements
+- **Automated quality assurance** with link checking and markdown validation
+- **Professional development workflow** with proper tooling and configuration
+- **Academic citation support** for research and educational use
+- **Enhanced discoverability** with proper metadata and badges
 
 ## [1.1.0] - 2025-07-21
 

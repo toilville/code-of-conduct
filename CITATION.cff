@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this Code of Conduct template, please cite it as below."
+type: software
+title: "Code of Conduct Template for Open Source Projects"
+version: 1.2.0
+date-released: 2025-07-21
+url: "https://github.com/toilville/code-of-conduct"
+repository-code: "https://github.com/toilville/code-of-conduct"
+authors:
+  - family-names: "Toilville"
+    email: "hello@itstoilville.com"
+    website: "https://www.itstoilville.com/"
+license: CC-BY-SA-4.0
+abstract: >-
+  A comprehensive Code of Conduct template designed for GitHub open source 
+  projects. Based on industry best practices and community standards, 
+  incorporating elements from the Contributor Covenant, Python Software 
+  Foundation guidelines, and Toilville community standards. Includes detailed 
+  enforcement procedures, reporting guidelines, and appeals processes.
+keywords:
+  - "code of conduct"
+  - "community guidelines"
+  - "open source"
+  - "github"
+  - "community management"
+  - "inclusive communities"
+  - "harassment prevention"
+preferred-citation:
+  type: software
+  title: "Code of Conduct Template for Open Source Projects"
+  authors:
+    - family-names: "Toilville"
+      email: "hello@itstoilville.com"
+      website: "https://www.itstoilville.com/"
+  url: "https://github.com/toilville/code-of-conduct"
+  year: 2025

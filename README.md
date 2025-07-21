@@ -3,6 +3,8 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![GitHub issues](https://img.shields.io/github/issues/toilville/code-of-conduct)](https://github.com/toilville/code-of-conduct/issues)
 [![GitHub stars](https://img.shields.io/github/stars/toilville/code-of-conduct)](https://github.com/toilville/code-of-conduct/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/toilville/code-of-conduct)](https://github.com/toilville/code-of-conduct/releases)
+[![Link Check](https://github.com/toilville/code-of-conduct/actions/workflows/link-checker.yml/badge.svg)](https://github.com/toilville/code-of-conduct/actions/workflows/link-checker.yml)
 
 This repository contains a comprehensive Code of Conduct template designed for GitHub open source projects. It's based on industry best practices and community standards, incorporating elements from the Contributor Covenant, Python Software Foundation guidelines, and the Toilville community standards.
 

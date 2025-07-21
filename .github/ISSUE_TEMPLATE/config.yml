@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussion
+    url: https://github.com/toilville/code-of-conduct/discussions
+    about: Ask questions and discuss with the community
+  - name: 🌐 Toilville Website
+    url: https://www.itstoilville.com/
+    about: Learn more about Toilville and our community management services
+  - name: 📧 Email Support
+    url: https://www.itstoilville.com/contact/
+    about: Contact Toilville directly for sensitive matters or professional consultation

@@ -1,0 +1,26 @@
+# Handle line endings automatically for files detected as text
+* text=auto
+
+# Force LF line endings for these file types
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# Ensure Windows doesn't convert line endings for these files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Language specific line endings
+*.sh text eol=lf
+
+# GitHub specific files
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+*.md linguist-detectable=true

@@ -1,0 +1,57 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Generate release notes
+      id: release_notes
+      run: |
+        # Extract version from tag
+        VERSION=${GITHUB_REF#refs/tags/}
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        
+        # Generate release notes from CHANGELOG.md
+        if [ -f CHANGELOG.md ]; then
+          # Extract the latest version's changes from CHANGELOG.md
+          awk "/^## \[$VERSION\]/ {flag=1; next} /^## \[/ {flag=0} flag" CHANGELOG.md > release_notes.md
+          if [ ! -s release_notes.md ]; then
+            echo "Changes in $VERSION - see CHANGELOG.md for details" > release_notes.md
+          fi
+        else
+          echo "Release $VERSION" > release_notes.md
+        fi
+        
+    - name: Create GitHub Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ steps.release_notes.outputs.version }}
+        body_path: release_notes.md
+        draft: false
+        prerelease: false
+        
+    - name: Upload Code of Conduct as asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./CODE_OF_CONDUCT.md
+        asset_name: CODE_OF_CONDUCT.md
+        asset_content_type: text/markdown
