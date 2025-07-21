@@ -2,15 +2,18 @@
 
 ## Reporting Security Issues
 
-If you discover a security vulnerability in this repository or have concerns about the security of the Code of Conduct templates, please report it responsibly.
+If you discover a security vulnerability in this repository or have concerns
+about the security of the Code of Conduct templates, please report it
+responsibly.
 
 ### For Security Issues
 
 **Do NOT create a public GitHub issue for security vulnerabilities.**
 
-Instead, please email us directly at: **hello@itstoilville.com**
+Instead, please email us directly at: **<hello@itstoilville.com>**
 
 Include the following information:
+
 - Description of the security concern
 - Steps to reproduce (if applicable)
 - Potential impact
@@ -51,11 +54,17 @@ We support safe harbor for security researchers who:
 
 When implementing our Code of Conduct templates:
 
-1. **Review contact information** - Ensure reporting emails are monitored and secure
+1. **Review contact information** - Ensure reporting emails are monitored and
+   secure
 2. **Protect reporter privacy** - Follow guidelines for confidential reporting
 3. **Secure documentation** - Store violation reports securely
-4. **Regular updates** - Keep your Code of Conduct current with our latest version
+4. **Regular updates** - Keep your Code of Conduct current with our latest
+   version
 
-**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need assistance with secure community management practices? [Contact us](https://www.itstoilville.com/) for professional support.
+**Sponsored by Toilville** - We believe in building inclusive communities where
+everyone can thrive. We stand with the principles that No One Is Illegal,
+Black Rights Matter, and we must Protect Trans Kids. Need assistance with
+secure community management practices?
+[Contact us](https://www.itstoilville.com/) for professional support.
 
 Thank you for helping keep our community resources safe and effective!

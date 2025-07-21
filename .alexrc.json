@@ -1,0 +1,31 @@
+{
+  "allow": [
+    "invalid",
+    "host-hostess",
+    "just",
+    "simple",
+    "obvious",
+    "easy",
+    "special",
+    "obviously",
+    "simply",
+    "basically",
+    "of-course",
+    "mental",
+    "nuts",
+    "black",
+    "illegal",
+    "kids",
+    "attacks",
+    "sexual",
+    "violence",
+    "fear",
+    "reject",
+    "period",
+    "faith",
+    "clearly",
+    "sex"
+  ],
+  "noBinary": true,
+  "profanitySureness": 1
+}

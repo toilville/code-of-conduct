@@ -1,6 +1,8 @@
 # Code of Conduct Violation Report Template
 
-**This template is for project maintainers to use when documenting and tracking Code of Conduct violations. Do not use this for reporting violations - instead, follow the reporting process outlined in the Code of Conduct.**
+**This template is for project maintainers to use when documenting and tracking
+Code of Conduct violations. Do not use this for reporting violations - instead,
+follow the reporting process outlined in the Code of Conduct.**
 
 ## Report Information
 
@@ -12,9 +14,12 @@
 ## Incident Details
 
 **Date/Time of Incident**: [When the incident occurred]  
-**Location/Platform**: [Where the incident took place - GitHub issue, PR, email, etc.]  
-**Individuals Involved**: 
-- **Reported Individual(s)**: [Username/identity of person(s) who allegedly violated CoC]
+**Location/Platform**: [Where the incident took place - GitHub issue, PR,
+email, etc.]  
+**Individuals Involved**:
+
+- **Reported Individual(s)**: [Username/identity of person(s) who allegedly
+  violated CoC]
 - **Affected Individual(s)**: [Who was affected by the behavior]
 - **Witnesses**: [Anyone else who observed the incident]
 
@@ -22,14 +27,16 @@
 
 **Summary**: [Brief description of what happened]
 
-**Detailed Account**: 
+**Detailed Account**:
 [Detailed description of the incident, including:]
+
 - What specifically occurred
 - Context leading up to the incident  
 - Impact on the affected individual(s)
 - Any relevant background information
 
-**Evidence**: 
+**Evidence**:
+
 - [ ] Screenshots attached
 - [ ] Links to relevant content
 - [ ] Email chains included
@@ -37,15 +44,17 @@
 
 ## Code of Conduct Violation Assessment
 
-**Specific CoC Section(s) Violated**: 
+**Specific CoC Section(s) Violated**:
 [Reference specific sections of the Code of Conduct that were violated]
 
-**Severity Level**: 
+**Severity Level**:
+
 - [ ] Minor (warning appropriate)
 - [ ] Moderate (temporary restrictions)
 - [ ] Severe (permanent consequences)
 
-**Previous Incidents**: 
+**Previous Incidents**:
+
 - [ ] First reported incident
 - [ ] Previous incidents: [Details]
 
@@ -55,41 +64,46 @@
 **Investigation Date**: [YYYY-MM-DD]
 
 **Steps Taken**:
+
 - [ ] Reviewed reported content/evidence
 - [ ] Contacted reported individual for their account
 - [ ] Interviewed witnesses
 - [ ] Consulted with other maintainers
 - [ ] Other: [Specify]
 
-**Additional Context**: 
+**Additional Context**:
 [Any additional information gathered during investigation]
 
 ## Response and Enforcement
 
-**Action Taken**: 
+**Action Taken**:
+
 - [ ] Warning issued
 - [ ] Temporary ban (duration: [X days/weeks])
 - [ ] Permanent ban
 - [ ] Content removed/edited
 - [ ] Other: [Specify]
 
-**Rationale**: 
+**Rationale**:
 [Explanation for the chosen enforcement action]
 
-**Communication**: 
+**Communication**:
+
 - [ ] Reported individual notified of action
 - [ ] Reporter informed of resolution
 - [ ] Public statement made (if applicable)
 
 ## Follow-up
 
-**Follow-up Required**: 
+**Follow-up Required**:
+
 - [ ] Monitor for compliance
 - [ ] Check in with affected individual(s)
 - [ ] Review in [X time period]
 - [ ] Other: [Specify]
 
-**Case Status**: 
+**Case Status**:
+
 - [ ] Open
 - [ ] Resolved
 - [ ] Under appeal
@@ -98,8 +112,15 @@
 
 [Any additional notes, considerations, or lessons learned]
 
-**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need assistance with Code of Conduct enforcement procedures? [Contact us](https://www.itstoilville.com/) for professional community management support.
+**Sponsored by Toilville** - We believe in building inclusive communities where
+everyone can thrive. We stand with the principles that No One Is Illegal,
+Black Rights Matter, and we must Protect Trans Kids. Need assistance with Code
+of Conduct enforcement procedures?
+[Contact us](https://www.itstoilville.com/) for professional community
+management support.
 
 ---
 
-**Confidentiality Notice**: This report contains sensitive information and should be handled according to the project's privacy and confidentiality policies.
+**Confidentiality Notice**: This report contains sensitive information and
+should be handled according to the project's privacy and confidentiality
+policies.

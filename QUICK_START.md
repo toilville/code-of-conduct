@@ -5,6 +5,7 @@ Get your Code of Conduct up and running in under 5 minutes!
 ## 🚀 For New Projects
 
 ### 1. Copy the Template
+
 ```bash
 # Option A: Download directly
 curl -O https://raw.githubusercontent.com/toilville/code-of-conduct/main/CODE_OF_CONDUCT.md
@@ -16,12 +17,15 @@ cp CODE_OF_CONDUCT.md /path/to/your/project/
 ```
 
 ### 2. Customize Contact Information
+
 Replace the contact methods with your project's information:
+
 - Change `hello@itstoilville.com` to your project's email
 - Update repository issue links to point to your project
 - Review enforcement team references
 
 ### 3. Add to Your Repository
+
 ```bash
 # Add to your project
 git add CODE_OF_CONDUCT.md
@@ -30,7 +34,9 @@ git push
 ```
 
 ### 4. Link from README
+
 Add this section to your project's README.md:
+
 ```markdown
 ## Code of Conduct
 
@@ -48,6 +54,7 @@ By participating, you are expected to uphold this code.
 4. **Train moderators** on the new processes
 
 ### Migration Checklist
+
 - [ ] Compare current Code of Conduct with this template
 - [ ] Identify key differences and improvements
 - [ ] Plan communication strategy for changes
@@ -59,6 +66,7 @@ By participating, you are expected to uphold this code.
 ## 📋 Implementation Checklist
 
 ### Essential Steps
+
 - [ ] Copy `CODE_OF_CONDUCT.md` to your project
 - [ ] Update all contact information
 - [ ] Link from README.md
@@ -66,6 +74,7 @@ By participating, you are expected to uphold this code.
 - [ ] Train enforcement team
 
 ### Recommended Additions
+
 - [ ] Copy `ENFORCEMENT_GUIDELINES.md` for maintainers
 - [ ] Use `VIOLATION_REPORT_TEMPLATE.md` for consistency
 - [ ] Add Code of Conduct section to CONTRIBUTING.md
@@ -73,6 +82,7 @@ By participating, you are expected to uphold this code.
 - [ ] Set up monitoring for compliance
 
 ### Advanced Setup
+
 - [ ] Establish enforcement team roles
 - [ ] Create private channels for sensitive reports
 - [ ] Set up documentation for violation tracking
@@ -82,17 +92,20 @@ By participating, you are expected to uphold this code.
 ## 🛠️ Customization Options
 
 ### For Small Projects
+
 - Simplify enforcement to single maintainer
 - Use GitHub issues for most reports
 - Focus on clear behavioral expectations
 
 ### For Large Projects
+
 - Establish dedicated moderation team
 - Use private email for sensitive reports
 - Implement detailed violation tracking
 - Consider appeals committee
 
 ### For Corporate Projects
+
 - Align with company policies
 - Include legal compliance requirements
 - Consider multiple reporting channels
@@ -100,7 +113,7 @@ By participating, you are expected to uphold this code.
 
 ## 🆘 Need Help?
 
-- 📧 Email: hello@itstoilville.com
+- 📧 Email: <hello@itstoilville.com>
 - 🐛 Issues: [GitHub Issues](https://github.com/toilville/code-of-conduct/issues)
 - 📖 Documentation: [Full README](README.md)
 - 🔧 Enforcement: [Guidelines](ENFORCEMENT_GUIDELINES.md)
@@ -108,12 +121,17 @@ By participating, you are expected to uphold this code.
 ## 📚 Next Steps
 
 1. **Review** the full [README.md](README.md) for detailed guidance
-2. **Read** the [ENFORCEMENT_GUIDELINES.md](ENFORCEMENT_GUIDELINES.md) 
+2. **Read** the [ENFORCEMENT_GUIDELINES.md](ENFORCEMENT_GUIDELINES.md)
 3. **Customize** templates for your project's needs
 4. **Communicate** the Code of Conduct to your community
 5. **Monitor** and maintain the Code of Conduct over time
 
-**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need help implementing your Code of Conduct or managing your community? [Contact us](https://www.itstoilville.com/) for professional community management support.
+**Sponsored by Toilville** - We believe in building inclusive communities where
+everyone can thrive. We stand with the principles that No One Is Illegal,
+Black Rights Matter, and we must Protect Trans Kids. Need help implementing
+your Code of Conduct or managing your community?
+[Contact us](https://www.itstoilville.com/) for professional community
+management support.
 
 ---
 

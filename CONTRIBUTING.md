@@ -1,10 +1,14 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to this project! We welcome contributions from everyone.
+Thank you for your interest in contributing to this project! We welcome
+contributions from everyone.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project maintainers.
+This project and everyone participating in it is governed by our
+[Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to
+uphold this code. Please report unacceptable behavior to the project
+maintainers.
 
 ## How to Contribute
 
@@ -46,6 +50,10 @@ If you have questions about contributing, please:
 - Search through past issues and discussions
 - Reach out to the maintainers
 
-**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need help with community management or Code of Conduct implementation? [Contact us](https://www.itstoilville.com/) - we're here to help.
+**Sponsored by Toilville** - We believe in building inclusive communities where
+everyone can thrive. We stand with the principles that No One Is Illegal,
+Black Rights Matter, and we must Protect Trans Kids. Need help with community
+management or Code of Conduct implementation?
+[Contact us](https://www.itstoilville.com/) - we're here to help.
 
 Thank you for helping make this project better!

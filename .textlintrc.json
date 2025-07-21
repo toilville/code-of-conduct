@@ -1,0 +1,69 @@
+{
+  "filters": {},
+  "rules": {
+    "alex": {
+      "allow": [
+        "invalid",
+        "master-slave",
+        "whitelist-blacklist",
+        "mental",
+        "nuts",
+        "black",
+        "illegal",
+        "kids",
+        "attacks",
+        "sexual",
+        "violence",
+        "fear",
+        "reject",
+        "period",
+        "faith",
+        "clearly",
+        "sex",
+        "special"
+      ]
+    },
+    "common-misspellings": true,
+    "write-good": {
+      "severity": "warning",
+      "passive": false,
+      "illusion": true,
+      "so": true,
+      "thereIs": true,
+      "weasel": true,
+      "adverb": true,
+      "tooWordy": true,
+      "cliches": true,
+      "eprime": false
+    },
+    "terminology": {
+      "defaultTerms": true,
+      "terms": {
+        "Github": "GitHub",
+        "github": "GitHub",
+        "Javascript": "JavaScript",
+        "javascript": "JavaScript",
+        "Npm": "npm",
+        "NPM": "npm",
+        "Node.js": "Node.js",
+        "nodejs": "Node.js",
+        "Yaml": "YAML",
+        "Json": "JSON",
+        "Api": "API",
+        "Url": "URL",
+        "Uri": "URI",
+        "Http": "HTTP",
+        "Https": "HTTPS",
+        "Css": "CSS",
+        "Html": "HTML",
+        "open-source": "open source",
+        "Open-Source": "Open Source",
+        "Open-source": "Open source",
+        "code-of-conduct": "Code of Conduct",
+        "Code-of-Conduct": "Code of Conduct",
+        "Code-Of-Conduct": "Code of Conduct"
+      }
+    },
+    "en-capitalization": true
+  }
+}

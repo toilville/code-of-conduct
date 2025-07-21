@@ -39,8 +39,16 @@
   "scripts": {
     "lint": "markdownlint \"**/*.md\" --ignore node_modules",
     "lint:fix": "markdownlint \"**/*.md\" --ignore node_modules --fix",
-    "validate": "npm run lint && npm run link-check",
+    "lint:style": "alex *.md --ignore node_modules",
+    "lint:accessibility": "textlint *.md",
+    "lint:accessibility:quiet": "textlint *.md --quiet",
+    "lint:required": "npm run lint && npm run lint:style",
+    "lint:all": "npm run lint:required && npm run lint:accessibility",
+    "lint:all:continue": "npm run lint:required && npm run lint:accessibility || true",
+    "validate": "npm run lint:required && npm run link-check",
+    "validate:full": "npm run lint:all && npm run link-check",
     "link-check": "markdown-link-check README.md",
+    "link-check:all": "find . -name '*.md' -not -path './node_modules/*' | xargs markdown-link-check",
     "prepare-release": "npm run validate && echo 'Release preparation complete'",
     "create-release": "echo 'Use: git tag -a v1.x.x -m \"Release v1.x.x\" && git push origin v1.x.x'",
     "version-bump": "npm version patch --no-git-tag-version"
@@ -48,7 +56,14 @@
   "devDependencies": {
     "markdownlint-cli": "^0.37.0",
     "markdown-link-check": "^3.11.2",
-    "semantic-release": "^22.0.5"
+    "semantic-release": "^22.0.5",
+    "alex": "^11.0.1",
+    "textlint": "^13.3.3",
+    "textlint-rule-alex": "^4.0.0",
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-write-good": "^2.0.0",
+    "textlint-rule-terminology": "^4.0.1",
+    "textlint-rule-en-capitalization": "^2.0.3"
   },
   "engines": {
     "node": ">=16.0.0"

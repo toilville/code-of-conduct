@@ -1,0 +1,79 @@
+# Custom dictionary for markdownlint and other tools
+markdown lint
+markdown-lint
+# Brand names, technical terms, and project-specific vocabulary
+
+# Brand/Company Names
+GitHub
+Toilville
+itstoilville
+Dependabot
+Canva
+Figma
+LinkedIn
+CodeQL
+
+# File extensions and technical terms
+md
+json
+yml
+yaml
+gitignore
+gitattributes
+changelog
+npm
+js
+ts
+cff
+
+# Common abbreviations and acronyms
+API
+CLI
+CSS
+HTML
+HTTP
+HTTPS
+JSON
+YAML
+URL
+URI
+UUID
+README
+LICENSE
+CHANGELOG
+FAQ
+TOC
+TL;DR
+
+# Community/Social justice terms
+TransRights
+BlackLivesMatter
+NoOneIsIllegal
+
+# Technical project terms
+linting
+workflow
+workflows
+config
+configs
+repo
+repos
+localhost
+username
+usernames
+metadata
+frontend
+backend
+fullstack
+DevOps
+CI/CD
+SaaS
+PaaS
+IaaS
+
+# Documentation terms
+quickstart
+setup
+walkthrough
+tutorial
+howto
