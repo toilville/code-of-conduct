@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release (e.g., v1.2.0)'
+        required: true
+        type: string
 
 jobs:
   release:
@@ -17,36 +23,113 @@ jobs:
       with:
         fetch-depth: 0
         
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install dependencies
+      run: npm ci --only=production || npm install --only=production || echo "No package-lock.json found, skipping npm ci"
+        
+    - name: Determine version
+      id: version
+      run: |
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          VERSION="${{ github.event.inputs.version }}"
+        else
+          VERSION=${GITHUB_REF#refs/tags/}
+        fi
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "Releasing version: $VERSION"
+        
     - name: Generate release notes
       id: release_notes
       run: |
-        # Extract version from tag
-        VERSION=${GITHUB_REF#refs/tags/}
-        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        VERSION="${{ steps.version.outputs.version }}"
         
-        # Generate release notes from CHANGELOG.md
+        # Remove 'v' prefix for CHANGELOG lookup
+        CHANGELOG_VERSION=${VERSION#v}
+        
+        echo "Looking for version $CHANGELOG_VERSION in CHANGELOG.md"
+        
         if [ -f CHANGELOG.md ]; then
-          # Extract the latest version's changes from CHANGELOG.md
-          awk "/^## \[$VERSION\]/ {flag=1; next} /^## \[/ {flag=0} flag" CHANGELOG.md > release_notes.md
+          # Extract the version's changes from CHANGELOG.md
+          awk "/^## \[$CHANGELOG_VERSION\]/ {flag=1; next} /^## \[/ {flag=0} flag" CHANGELOG.md > release_notes.md
+          
+          # If no specific version found, try to get unreleased section
           if [ ! -s release_notes.md ]; then
-            echo "Changes in $VERSION - see CHANGELOG.md for details" > release_notes.md
+            awk "/^## \[Unreleased\]/ {flag=1; next} /^## \[/ {flag=0} flag" CHANGELOG.md > release_notes.md
+          fi
+          
+          # If still empty, create default notes
+          if [ ! -s release_notes.md ]; then
+            echo "## Changes in $VERSION" > release_notes.md
+            echo "" >> release_notes.md
+            echo "See [CHANGELOG.md](CHANGELOG.md) for detailed changes." >> release_notes.md
           fi
         else
-          echo "Release $VERSION" > release_notes.md
+          echo "## Release $VERSION" > release_notes.md
+          echo "" >> release_notes.md
+          echo "Code of Conduct template release." >> release_notes.md
         fi
         
+        echo "Release notes generated:"
+        cat release_notes.md
+        
+    - name: Create release archive
+      run: |
+        # Create a clean distribution directory
+        mkdir -p dist
+        
+        # Copy essential files for the release
+        cp CODE_OF_CONDUCT.md dist/
+        cp CONTRIBUTING.md dist/
+        cp ENFORCEMENT_GUIDELINES.md dist/
+        cp VIOLATION_REPORT_TEMPLATE.md dist/
+        cp QUICK_START.md dist/
+        cp README.md dist/
+        cp LICENSE dist/
+        cp CHANGELOG.md dist/
+        
+        # Create archive
+        cd dist
+        zip -r ../code-of-conduct-template-${{ steps.version.outputs.version }}.zip .
+        tar -czf ../code-of-conduct-template-${{ steps.version.outputs.version }}.tar.gz .
+        cd ..
+        
     - name: Create GitHub Release
+      id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ steps.release_notes.outputs.version }}
+        tag_name: ${{ steps.version.outputs.version }}
+        release_name: Code of Conduct Template ${{ steps.version.outputs.version }}
         body_path: release_notes.md
         draft: false
         prerelease: false
         
-    - name: Upload Code of Conduct as asset
+    - name: Upload ZIP archive
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./code-of-conduct-template-${{ steps.version.outputs.version }}.zip
+        asset_name: code-of-conduct-template-${{ steps.version.outputs.version }}.zip
+        asset_content_type: application/zip
+        
+    - name: Upload TAR.GZ archive
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./code-of-conduct-template-${{ steps.version.outputs.version }}.tar.gz
+        asset_name: code-of-conduct-template-${{ steps.version.outputs.version }}.tar.gz
+        asset_content_type: application/gzip
+        
+    - name: Upload individual Code of Conduct
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

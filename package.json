@@ -41,7 +41,9 @@
     "lint:fix": "markdownlint \"**/*.md\" --ignore node_modules --fix",
     "validate": "npm run lint && npm run link-check",
     "link-check": "markdown-link-check README.md",
-    "release": "semantic-release"
+    "prepare-release": "npm run validate && echo 'Release preparation complete'",
+    "create-release": "echo 'Use: git tag -a v1.x.x -m \"Release v1.x.x\" && git push origin v1.x.x'",
+    "version-bump": "npm version patch --no-git-tag-version"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.37.0",

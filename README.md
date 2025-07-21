@@ -1,6 +1,16 @@
 # Code of Conduct for Open Source Projects
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](https## Contributing to This Template
+
+If you have suggestions for improving this Code of Conduct template, please:
+
+1. **Fork** this repository
+2. **Make** your proposed changes
+3. **Submit** a pull request with a clear description of the improvements
+
+See our [Release Guide](.github/RELEASE_GUIDE.md) for information about how new versions are published.
+
+## Attributionields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![GitHub issues](https://img.shields.io/github/issues/toilville/code-of-conduct)](https://github.com/toilville/code-of-conduct/issues)
 [![GitHub stars](https://img.shields.io/github/stars/toilville/code-of-conduct)](https://github.com/toilville/code-of-conduct/stargazers)
 [![GitHub release](https://img.shields.io/github/v/release/toilville/code-of-conduct)](https://github.com/toilville/code-of-conduct/releases)
@@ -77,9 +87,11 @@ If you need assistance adapting this Code of Conduct for your project:
 
 If you have suggestions for improving this Code of Conduct template, please:
 
-1. Fork this repository
-2. Make your proposed changes
-3. Submit a pull request with a clear description of the improvements
+1. **Fork** this repository
+2. **Make** your proposed changes
+3. **Submit** a pull request with a clear description of the improvements
+
+See our [Release Guide](.github/RELEASE_GUIDE.md) for information about how new versions are published.
 
 ## Attribution
 
