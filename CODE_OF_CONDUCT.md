@@ -107,4 +107,4 @@ If you have questions about this Code of Conduct, please reach out to us at hell
 
 ---
 
-*Last updated: [Date]*
+*Last updated: July 21, 2025*
