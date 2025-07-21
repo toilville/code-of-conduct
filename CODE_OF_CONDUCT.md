@@ -101,6 +101,8 @@ This Code of Conduct is adapted from:
 
 This Code of Conduct is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
+**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. [Contact us](https://www.itstoilville.com/) for community management support and Code of Conduct implementation assistance.
+
 ## Questions?
 
 If you have questions about this Code of Conduct, please reach out to us at hello@itstoilville.com or create an issue on this repository.

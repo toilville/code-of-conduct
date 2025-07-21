@@ -56,4 +56,6 @@ When implementing our Code of Conduct templates:
 3. **Secure documentation** - Store violation reports securely
 4. **Regular updates** - Keep your Code of Conduct current with our latest version
 
+**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need assistance with secure community management practices? [Contact us](https://www.itstoilville.com/) for professional support.
+
 Thank you for helping keep our community resources safe and effective!

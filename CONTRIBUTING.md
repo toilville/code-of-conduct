@@ -46,4 +46,6 @@ If you have questions about contributing, please:
 - Search through past issues and discussions
 - Reach out to the maintainers
 
+**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need help with community management or Code of Conduct implementation? [Contact us](https://www.itstoilville.com/) - we're here to help.
+
 Thank you for helping make this project better!

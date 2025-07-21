@@ -161,6 +161,8 @@ This document provides guidance for project maintainers on how to fairly and con
 - Seek community feedback on the process
 - Adjust procedures as the community evolves
 
+**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need assistance with Code of Conduct enforcement or community management? [Contact us](https://www.itstoilville.com/) for professional support.
+
 ---
 
 *Remember: The goal of enforcement is to maintain a healthy, productive community where everyone can contribute effectively.*

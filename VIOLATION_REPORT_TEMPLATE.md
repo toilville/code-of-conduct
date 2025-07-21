@@ -98,6 +98,8 @@
 
 [Any additional notes, considerations, or lessons learned]
 
+**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need assistance with Code of Conduct enforcement procedures? [Contact us](https://www.itstoilville.com/) for professional community management support.
+
 ---
 
 **Confidentiality Notice**: This report contains sensitive information and should be handled according to the project's privacy and confidentiality policies.

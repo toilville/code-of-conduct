@@ -88,6 +88,10 @@ This Code of Conduct draws from several excellent sources:
 - [Toilville Office Hours Code of Conduct](https://www.itstoilville.com/live/office-hours-code-of-conduct/)
 - Various open source community best practices
 
+**Sponsored by Toilville** - We're dedicated to building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. 
+
+**Need help with community management?** We're available to assist with Code of Conduct implementation, community moderation, and inclusive community building. [Contact us at hello@itstoilville.com](mailto:hello@itstoilville.com) or visit [itstoilville.com](https://www.itstoilville.com/).
+
 ---
 
 *Building better communities, one project at a time.*

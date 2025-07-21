@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Toilville sponsorship information across all documentation
+- Values statement supporting "No One Is Illegal, Black Rights Matter, and Protect Trans Kids"
+- Community management service offerings and contact information
+- Enhanced funding configuration with Toilville links
+
+### Changed
+- Updated LICENSE with proper copyright attribution to Toilville
+- Enhanced all documentation with sponsorship and values information
+- Improved funding links to include main Toilville website
+
 ## [1.1.0] - 2025-07-21
 
 ### Changed

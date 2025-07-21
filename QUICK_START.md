@@ -113,6 +113,8 @@ By participating, you are expected to uphold this code.
 4. **Communicate** the Code of Conduct to your community
 5. **Monitor** and maintain the Code of Conduct over time
 
+**Sponsored by Toilville** - We believe in building inclusive communities where everyone can thrive. We stand with the principles that No One Is Illegal, Black Rights Matter, and we must Protect Trans Kids. Need help implementing your Code of Conduct or managing your community? [Contact us](https://www.itstoilville.com/) for professional community management support.
+
 ---
 
 *Get started in minutes, build better communities for years!*
